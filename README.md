@@ -18,14 +18,13 @@ service discovery.
 
 ![Architecture](docs/assets/img/cloud.png "Architecture")
 
-The ServiceGateway uses CircuitBreaker if the downstream services are not available. This isn't included in this
-diagram. The CircuitBreaker implementation is based on resilience4j.
+The ServiceGateway uses CircuitBreaker if the downstream services are not available. This isn't included in this diagram. The CircuitBreaker implementation is based on resilience4j.
 
 # Startup
 
 The application includes some intellij runners for the Services tab.
 
-<img src="docs/assets/img/services-tab.jpeg" width="312" alt="Services Tab" />
+![Services Tab](docs/assets/img/services-tab.jpeg "Services Tab")
 
 The services need to be started in this order:
 
