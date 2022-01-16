@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: CONFIG-SERVER
+      profile: configserver
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka1:8061/eureka/,http://eureka2:8062/eureka/,http://eureka3:8063/eureka/

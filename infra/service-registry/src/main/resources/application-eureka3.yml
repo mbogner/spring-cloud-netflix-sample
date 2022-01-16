@@ -1,0 +1,8 @@
+server:
+  port: 8063
+eureka:
+  instance:
+    hostname: eureka3
+  client:
+    serviceUrl:
+      defaultZone: http://eureka1:8061/eureka/,http://eureka2:8062/eureka/

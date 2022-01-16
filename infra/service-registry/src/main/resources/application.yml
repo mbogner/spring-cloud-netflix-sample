@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: SERVICE-REGISTRY
+  main:
+    banner-mode: "off"
+server:
+  port: 8061
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
